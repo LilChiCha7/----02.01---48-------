@@ -1,0 +1,54 @@
+.p{
+    margin-right: 10px;
+}
+html{
+    overflow-x: hidden;
+    background-color: aliceblue;
+}
+.body{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    text-align: justify;
+    background-color: rgb(71, 71, 71);
+    border-radius: 10px;
+}
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://www.akbars-leasing.ru/images/images/img-14102022-1.webp);
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.377);
+    background-blend-mode: multiply;
+}
+a img{
+    margin-left: 30px;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 20px;
+    width: 70%;
+}
+m{
+    font-size: 30px;
+}
+p{
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+@media screen and (max-width: 850px){
+    p{
+        font-size: 13px;
+    }
+    .body{
+        grid-template-columns: 99%;
+    }
+    m{
+        font-size: 20px;
+    }
+}

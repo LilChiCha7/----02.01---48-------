@@ -1,0 +1,22 @@
+html{
+    background-image: url(https://cdn.myportfolio.com/c81271a5746c226891e3ef502362c761/3be58251-92de-4b98-9b94-d6810e6ebf97_rw_1920.jpg?h=f305e1d08d4b95d71c42092b3772f06a);
+    background-repeat: no-repeat;
+    animation-name: back;
+    animation-duration: 2s;
+}
+
+
+body{
+    margin: 0px;
+    height: 200%;
+}
+.about{
+    width: 90%;
+    background-color: aliceblue;
+    margin-left: 5%;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    animation-name: back;
+    animation-duration: 1s;
+}
